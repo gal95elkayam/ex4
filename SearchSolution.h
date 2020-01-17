@@ -41,7 +41,7 @@ public:
         if (sol_size == 0) {
             return "No possible solution";
         }
-        cout<<"number of node: " <<solution[sol_size - 1]->getPathCost()<<endl;
+        cout<<"pathcost:  " <<solution[sol_size - 1]->getPathCost()<<endl;
         for (int i = 0; i < sol_size - 1; ++i) {
 
             if (solution[i]->getState().second == solution[i + 1]->getState().second) {
@@ -64,7 +64,7 @@ public:
 
             }
         }
-        cout<<searcher->getNumOfNodesEvaluated()<<endl;
+        cout<<"number of node:  " <<searcher->getNumOfNodesEvaluated()<<endl;
 
         // delete the extra ","
         string final_result = result.substr(0, result.size() - 1);
