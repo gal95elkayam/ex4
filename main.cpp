@@ -22,7 +22,7 @@ int main() {
 //    serv->open(port,m);
     auto * server = new MyParallelServer(); // server
     auto * cm = new FileCacheManger<string,string>(); // inside- load the solution
-    auto *searcher = new Astar<pair<int, int>>();
+    auto *searcher = new DFS<pair<int, int>>();
     auto *searchSolver = new SearchSolution<pair<int, int>, string>(searcher);
     auto *client = new MyClientHandler(searchSolver, cm);
     server->open(port, client);
