@@ -21,7 +21,7 @@ private:
     int nodesEvaluated = 0;
 public:
     virtual std::vector<State<Problem> *> search(Searchable<Problem> *searchable) {
-
+        nodesEvaluated = 0;
         // create stack and save the goal and initialize state
         std::stack<State<Problem> *> stack;
         searchable->getGoalState();

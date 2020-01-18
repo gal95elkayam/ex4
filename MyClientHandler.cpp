@@ -6,6 +6,7 @@
 #include <cstring>
 #include <zconf.h>
 #include <regex>
+#include <iostream>
 #include "MyClientHandler.h"
 
 vector<vector<string>> MyClientHandler::lexer(string input) {
@@ -54,7 +55,9 @@ void MyClientHandler::handleClient(int sock_id) {
     string solution;
     string problem;
     vector<vector<string>> data;
+    cout<<"enter function handleclient  "<<sock_id<<endl;
     problem = getData(sock_id);
+    cout<<"recive data from   "<<sock_id<<endl;
     ///////////////////////////////
 //    string problem_to_lexer = problem;
     // arrange the string problem

@@ -18,6 +18,7 @@ private:
     int evaluated_nodes = 0;
 public:
     virtual vector<State<Problem>*> search(Searchable<Problem> *searchable) {
+        evaluated_nodes=0;
         // Create a queue for BFS
         std::list<State<Problem> *> queue;
         State<Problem> *cur_state = searchable->getInitState();

@@ -7,6 +7,7 @@
 #include "MyClientHandler.h"
 #include "Astar.h"
 #include "DFS.h"
+#include "MyParallelServer.h"
 
 using namespace std;
 
@@ -19,7 +20,7 @@ int main() {
 //    ClientHandler *m=new MyTestClientHandler<string, string>(solv,fcm);
     int port=5600;
 //    serv->open(port,m);
-    auto * server = new MySerialServer(); // server
+    auto * server = new MyParallelServer(); // server
     auto * cm = new FileCacheManger<string,string>(); // inside- load the solution
     auto *searcher = new Astar<pair<int, int>>();
     auto *searchSolver = new SearchSolution<pair<int, int>, string>(searcher);

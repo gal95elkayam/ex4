@@ -13,6 +13,11 @@ CMakeFiles/ex4.dir/MyClientHandler.cpp.o
  /home/gal/Desktop/ex4/MyClientHandler.cpp
  /home/gal/Desktop/ex4/MyClientHandler.h
  /home/gal/Desktop/ex4/Solver.h
+CMakeFiles/ex4.dir/MyParallelServer.cpp.o
+ /home/gal/Desktop/ex4/ClientHandler.h
+ /home/gal/Desktop/ex4/MyParallelServer.cpp
+ /home/gal/Desktop/ex4/MyParallelServer.h
+ /home/gal/Desktop/ex4/Server.h
 CMakeFiles/ex4.dir/MySerialServer.cpp.o
  /home/gal/Desktop/ex4/ClientHandler.h
  /home/gal/Desktop/ex4/MySerialServer.cpp
@@ -31,6 +36,7 @@ CMakeFiles/ex4.dir/main.cpp.o
  /home/gal/Desktop/ex4/FileCacheManger.h
  /home/gal/Desktop/ex4/Matrix.h
  /home/gal/Desktop/ex4/MyClientHandler.h
+ /home/gal/Desktop/ex4/MyParallelServer.h
  /home/gal/Desktop/ex4/MyPriorityQueue.h
  /home/gal/Desktop/ex4/MySerialServer.h
  /home/gal/Desktop/ex4/SearchSolution.h

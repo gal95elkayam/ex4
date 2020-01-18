@@ -13,6 +13,11 @@ CMakeFiles/ex4.dir/MyClientHandler.cpp.o: ../MyClientHandler.cpp
 CMakeFiles/ex4.dir/MyClientHandler.cpp.o: ../MyClientHandler.h
 CMakeFiles/ex4.dir/MyClientHandler.cpp.o: ../Solver.h
 
+CMakeFiles/ex4.dir/MyParallelServer.cpp.o: ../ClientHandler.h
+CMakeFiles/ex4.dir/MyParallelServer.cpp.o: ../MyParallelServer.cpp
+CMakeFiles/ex4.dir/MyParallelServer.cpp.o: ../MyParallelServer.h
+CMakeFiles/ex4.dir/MyParallelServer.cpp.o: ../Server.h
+
 CMakeFiles/ex4.dir/MySerialServer.cpp.o: ../ClientHandler.h
 CMakeFiles/ex4.dir/MySerialServer.cpp.o: ../MySerialServer.cpp
 CMakeFiles/ex4.dir/MySerialServer.cpp.o: ../MySerialServer.h
@@ -30,6 +35,7 @@ CMakeFiles/ex4.dir/main.cpp.o: ../DFS.h
 CMakeFiles/ex4.dir/main.cpp.o: ../FileCacheManger.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/main.cpp.o: ../MyClientHandler.h
+CMakeFiles/ex4.dir/main.cpp.o: ../MyParallelServer.h
 CMakeFiles/ex4.dir/main.cpp.o: ../MyPriorityQueue.h
 CMakeFiles/ex4.dir/main.cpp.o: ../MySerialServer.h
 CMakeFiles/ex4.dir/main.cpp.o: ../SearchSolution.h

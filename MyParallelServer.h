@@ -6,6 +6,10 @@
 #define EX4_MYPARALLELSERVER_H
 
 
+#include <vector>
+#include <thread>
+#include "Server.h"
+
 class MyParallelServer: public server_side::Server{
 vector<thread> m_threads;
 ClientHandler* m_handler;
@@ -19,7 +23,6 @@ virtual ~MyParallelServer();
 
 virtual void open(int port, ClientHandler* ch);
 virtual void stop(int sockfd);
-
 
 
 };

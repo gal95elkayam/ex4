@@ -84,6 +84,14 @@ Solver.h
 CacheManager.h
 /home/gal/Desktop/ex4/CacheManager.h
 
+/home/gal/Desktop/ex4/MyParallelServer.h
+vector
+-
+thread
+-
+Server.h
+/home/gal/Desktop/ex4/Server.h
+
 /home/gal/Desktop/ex4/MyPriorityQueue.h
 iostream
 -
@@ -153,4 +161,6 @@ Astar.h
 /home/gal/Desktop/ex4/Astar.h
 DFS.h
 /home/gal/Desktop/ex4/DFS.h
+MyParallelServer.h
+/home/gal/Desktop/ex4/MyParallelServer.h
 
